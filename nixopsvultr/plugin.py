@@ -16,6 +16,6 @@ def nixexprs():
 @nixops.plugins.hookimpl
 def load():
     return [
-        "nixopsvultr.backends.vultr",
+        "nixopsvultr.backends.vm",
     ]
 

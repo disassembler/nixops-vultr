@@ -10,7 +10,7 @@ setup(name='nixops-vultr',
       url='https://github.com/disassembler/nixops-vultr',
       author='Samuel Leathers',
       author_email='disasm@gmail.com',
-      packages=['nixopsvultr.backends'],
+      packages=[ 'nixopsvultr', 'nixopsvultr.backends'],
       entry_points={'nixops': ['vultr = nixopsvultr.plugin']},
       py_modules=['plugin']
 )
